@@ -679,17 +679,26 @@ select {
 .relative {
   position: relative;
 }
-.left-0 {
-  left: 0px;
-}
-.right-0 {
-  right: 0px;
+.bottom-10 {
+  bottom: 2.5rem;
 }
 .bottom-\[35px\] {
   bottom: 35px;
 }
+.left-0 {
+  left: 0px;
+}
+.left-10 {
+  left: 2.5rem;
+}
+.right-0 {
+  right: 0px;
+}
 .z-10 {
   z-index: 10;
+}
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 .mb-\[30px\] {
   margin-bottom: 30px;
@@ -709,17 +718,23 @@ select {
 .grid {
   display: grid;
 }
+.h-\[360px\] {
+  height: 360px;
+}
+.h-\[450px\] {
+  height: 450px;
+}
+.h-\[455px\] {
+  height: 455px;
+}
 .h-\[900px\] {
   height: 900px;
 }
 .h-full {
   height: 100%;
 }
-.h-\[455px\] {
-  height: 455px;
-}
-.h-\[360px\] {
-  height: 360px;
+.h-\[258px\] {
+  height: 258px;
 }
 .w-full {
   width: 100%;
@@ -730,11 +745,14 @@ select {
 .flex-auto {
   flex: 1 1 auto;
 }
-.grid-cols-\[1fr_460px\] {
-  grid-template-columns: 1fr 460px;
+.grid-cols-\[1fr_1fr\] {
+  grid-template-columns: 1fr 1fr;
 }
 .grid-cols-\[1fr_1fr_1fr_1fr\] {
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-cols-\[1fr_460px\] {
+  grid-template-columns: 1fr 460px;
 }
 .items-center {
   align-items: center;
@@ -744,9 +762,6 @@ select {
 }
 .rounded-\[40px\] {
   border-radius: 40px;
-}
-.rounded-\[100px\] {
-  border-radius: 100px;
 }
 .bg-\[\#090909\] {
   --tw-bg-opacity: 1;
@@ -764,27 +779,33 @@ select {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
 .pt-20 {
   padding-top: 5rem;
 }
 .text-center {
   text-align: center;
 }
+.leading-\[60px\] {
+  line-height: 60px;
+}
+.leading-\[47px\] {
+  line-height: 47px;
+}
 .text-\[\#848484\] {
   --tw-text-opacity: 1;
   color: rgb(132 132 132 / var(--tw-text-opacity));
 }
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-\[\#FFFFFF\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
 .text-\[\#a9a9a9\] {
   --tw-text-opacity: 1;
   color: rgb(169 169 169 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 @font-face {
   font-family: "Pragmatica-Extended";
@@ -802,7 +823,6 @@ select {
 .title {
   font-size: 60px;
   font-weight: 500;
-  line-height: 47px;
   letter-spacing: 0.3px;
 }
 
