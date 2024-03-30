@@ -542,6 +542,10 @@ select {
   outline: 1px solid ButtonText;
   outline: 1px auto -webkit-focus-ring-color;
 }
+  html {
+    background-color: black;
+    font-family: "Pragmatica-Extended", sans-serif;
+  }
 
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
@@ -636,6 +640,192 @@ select {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.left-0 {
+  left: 0px;
+}
+.right-0 {
+  right: 0px;
+}
+.bottom-\[35px\] {
+  bottom: 35px;
+}
+.z-10 {
+  z-index: 10;
+}
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+.ml-10 {
+  margin-left: 2.5rem;
+}
+.mt-\[60px\] {
+  margin-top: 60px;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.h-\[900px\] {
+  height: 900px;
+}
+.h-full {
+  height: 100%;
+}
+.h-\[455px\] {
+  height: 455px;
+}
+.h-\[360px\] {
+  height: 360px;
+}
+.w-full {
+  width: 100%;
+}
 .min-w-\[350px\] {
   min-width: 350px;
+}
+.flex-auto {
+  flex: 1 1 auto;
+}
+.grid-cols-\[1fr_460px\] {
+  grid-template-columns: 1fr 460px;
+}
+.grid-cols-\[1fr_1fr_1fr_1fr\] {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.items-center {
+  align-items: center;
+}
+.gap-10 {
+  gap: 2.5rem;
+}
+.rounded-\[40px\] {
+  border-radius: 40px;
+}
+.rounded-\[100px\] {
+  border-radius: 100px;
+}
+.bg-\[\#090909\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 9 9 / var(--tw-bg-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.pt-20 {
+  padding-top: 5rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-\[\#848484\] {
+  --tw-text-opacity: 1;
+  color: rgb(132 132 132 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-\[\#FFFFFF\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-\[\#a9a9a9\] {
+  --tw-text-opacity: 1;
+  color: rgb(169 169 169 / var(--tw-text-opacity));
+}
+@font-face {
+  font-family: "Pragmatica-Extended";
+  font-display: swap;
+  src: url("../fonts/Pragmatica-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1160px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0.3px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.3px;
+}
+
+.\[\&\>li\]\:text-base>li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.\[\&\>li\]\:font-medium>li {
+  font-weight: 500;
+}
+
+.\[\&\>li\]\:leading-\[22\.4px\]>li {
+  line-height: 22.4px;
+}
+
+.\[\&\>li\]\:tracking-\[0\.3px\]>li {
+  letter-spacing: 0.3px;
 }
