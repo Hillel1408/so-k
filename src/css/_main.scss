@@ -13,3 +13,6 @@
 .small-text {
   @apply text-[12px] font-medium leading-[16.8px] tracking-[0.3px];
 }
+.input {
+  @apply h-[50px] rounded-[10px] border-[1.5px] border-[#848484] bg-transparent placeholder:text-[12px] placeholder:font-medium placeholder:leading-[16.8px] placeholder:tracking-[0.3px] placeholder:text-white;
+}
