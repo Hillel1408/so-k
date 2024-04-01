@@ -7,3 +7,9 @@
 .text {
   @apply text-[16px] font-medium leading-[22.4px] tracking-[0.3px];
 }
+.btn {
+  @apply rounded-[15px] border-[2px] border-[#848484] px-[25px]  text-white;
+}
+.small-text {
+  @apply text-[12px] font-medium leading-[16.8px] tracking-[0.3px];
+}
