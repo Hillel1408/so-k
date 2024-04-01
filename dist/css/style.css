@@ -696,6 +696,24 @@ select {
 .top-\[30px\] {
   top: 30px;
 }
+.-top-\[158\] {
+  top: -158;
+}
+.-top-\[158px\] {
+  top: -158px;
+}
+.-left-\[160px\] {
+  left: -160px;
+}
+.-left-\[115px\] {
+  left: -115px;
+}
+.-right-\[115px\] {
+  right: -115px;
+}
+.-bottom-\[85px\] {
+  bottom: -85px;
+}
 .z-10 {
   z-index: 10;
 }
